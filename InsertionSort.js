@@ -1,20 +1,17 @@
-const Dragão = require('./ListaDragonCity');
+const Dragao = require('./ListaDragonCity');
+const troca = require('./troca');
 
-function insertSort(lista){
+
+function insertionSort(lista){  
+    
     for(let atual =0; atual < lista.length; atual++){
         let analise = atual;
         while(analise > 0 && lista[analise].raridade < lista[analise - 1].raridade){
-            let itemAnalise = lista[analise];
-            let itemAnterior = lista[analise -1];
-
-            lista[analise] = itemAnterior
-            lista[analise - 1] = itemAnalise
-
+            troca(lista, analise);
             analise--
         }
-
     }
     console.log(lista);
 }
 
-insertSort(Dragão);
+insertionSort(Dragao);

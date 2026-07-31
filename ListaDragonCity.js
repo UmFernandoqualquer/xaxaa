@@ -1,30 +1,30 @@
 const raridadeDragao = [
     {
-        Dragão: "Dragão de Fogo",
-        Raridade:"Comum"
+        Dragao: "Dragão de Fogo",
+        Raridade:1
     },
         {
-        Dragão: "Dragão de Artes Marciais",
-        Raridade:"Raro"
+        Dragao: "Dragão Artes Marciais",
+        Raridade:2
     },
         {
-        Dragão: "Dragão da Amizade",
-        Raridade:"Muito Raro"
+        Dragao: "Dragão da Amizade",
+        Raridade:3
     },
         {
-        Dragão: "Dragão Puro",
-        Raridade:"Epico"
+        Dragao: "Dragão Puro",
+        Raridade:4
     },
         {
-        Dragão: "Dragão Titã da Natureza",
-        Raridade:"Lendario"
+        Dragao: "Dragão Titã da Natureza",
+        Raridade:5
     },
         {
-        Dragão: "Dragão Vampiro Ganancioso",
-        Raridade:"Mitico"
+        Dragao: "Dragão Vampiro Ganancioso",
+        Raridade:6
     },
        {
-        Dragão: "Dragão Asa Ardente Nobre",
-        Raridade:"Heroico"
+        Dragao: "Dragão Asa Ardente Nobre",
+        Raridade:7
     }
 ]
